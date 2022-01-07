@@ -97,17 +97,32 @@
     >
       <SectionedLine>
         <div slot="left">
-          <b>KanColle Simulator</b>
+          <b>KC Simulator</b>
         </div>
       </SectionedLine>
       <div class="italics note">
         <a href="https://github.com/Vylantze/KCS">https://github.com/Vylantze/KCS</a>
       </div>
       <ul>
-        <li>A rebuild of the home room in the game Kantai Collection.</li>
+        <li>A rebuild of the home room of the game Kantai Collection.</li>
         <li>Solo project.</li>
         <li>Developed using Vuejs to manage components and HTML5 Canvas to replicate animations.</li>
-        <li>Character handling has been modularized to allow for easy expansion and adding of new characters.</li>
+        <li>Modularized character handling to allow for easy expansion and adding of new characters.</li>
+      </ul>
+
+      <SectionedLine>
+        <div slot="left">
+          <b>OraCle</b>
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        <a href="https://github.com/CS2103-Aug2015-w15-4j/main">https://github.com/CS2103-Aug2015-w15-4j/main</a>
+      </div>
+      <ul>
+        <li>An application that allows for user to input and manage tasks.</li>
+        <li>Made using a team of four.</li>
+        <li>Developed using Java.</li>
+        <li>Developer for user input and dynmically generated UI.</li>
       </ul>
 
       <SectionedLine>
@@ -138,21 +153,6 @@
         <li>Made using a team of six.</li>
         <li>Developed using Unreal Engine.</li>
         <li>Developer for mechanics.</li>
-      </ul>
-
-      <SectionedLine>
-        <div slot="left">
-          <b>OraCle</b>
-        </div>
-      </SectionedLine>
-      <div class="italics note">
-        <a href="https://github.com/CS2103-Aug2015-w15-4j/main">https://github.com/CS2103-Aug2015-w15-4j/main</a>
-      </div>
-      <ul>
-        <li>An application that allows for user to input and manage tasks.</li>
-        <li>Made using a team of four.</li>
-        <li>Developed using Java.</li>
-        <li>Developer for user input and dynmically generated UI.</li>
       </ul>
 
       <SectionedLine>
