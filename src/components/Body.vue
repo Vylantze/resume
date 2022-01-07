@@ -74,8 +74,23 @@
         <li>Developed and maintained a server's apis using Golang to manage issue creation and cloud syncing with the desktop application.</li>
         <li>Developed and maintained plugins using C# to retrieve and convert geometry data from external applications such as Autodesk Revit.</li>
       </ul>
-    </Section>
 
+      <SectionedLine>
+        <div slot="left">
+          <b>Landshark Games</b>
+        </div>
+        <div slot="right">
+          05/2017 – 10/2017
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        Intern
+      </div>
+      <ul>
+        <li>Recreated one of the company's Facebook flash games, Bad Candy, in Unity, using C#.</li>
+        <li>Developed the entire system that supports the game from scratch, which includes the mechanics of the puzzles, menu handling, user input, etc.</li>
+      </ul>
+    </Section>
 
     <Section
       title="Projects"
@@ -86,13 +101,75 @@
         </div>
       </SectionedLine>
       <div class="italics note">
-        <a href="https://vylantze.github.io/KCS/">https://vylantze.github.io/KCS/</a>
+        <a href="https://github.com/Vylantze/KCS">https://github.com/Vylantze/KCS</a>
       </div>
       <ul>
         <li>A rebuild of the home room in the game Kantai Collection.</li>
-        <li>Developed using Vuejs to manage components and HTML5 Canvas to replicate the animations.</li>
+        <li>Solo project.</li>
+        <li>Developed using Vuejs to manage components and HTML5 Canvas to replicate animations.</li>
         <li>Character handling has been modularized to allow for easy expansion and adding of new characters.</li>
       </ul>
+
+      <SectionedLine>
+        <div slot="left">
+          <b>8th Sea</b>
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        <a href="https://github.com/Voxsam/8thsea">https://github.com/Voxsam/8thsea</a>
+      </div>
+      <ul>
+        <li>A game that uses an underwater submarine to catch fish.</li>
+        <li>Made using a team of five.</li>
+        <li>Developed using Unity Engine.</li>
+        <li>Developer for mechanics, as well as merging handler and main debugger.</li>
+      </ul>
+
+      <SectionedLine>
+        <div slot="left">
+          <b>Voxsam</b>
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        <a href="https://github.com/JeanKoh/Voxsam">https://github.com/JeanKoh/Voxsam</a>
+      </div>
+      <ul>
+        <li>A game that lets you build towers to defend against viral blobs.</li>
+        <li>Made using a team of six.</li>
+        <li>Developed using Unreal Engine.</li>
+        <li>Developer for mechanics.</li>
+      </ul>
+
+      <SectionedLine>
+        <div slot="left">
+          <b>OraCle</b>
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        <a href="https://github.com/CS2103-Aug2015-w15-4j/main">https://github.com/CS2103-Aug2015-w15-4j/main</a>
+      </div>
+      <ul>
+        <li>An application that allows for user to input and manage tasks.</li>
+        <li>Made using a team of four.</li>
+        <li>Developed using Java.</li>
+        <li>Developer for user input and dynmically generated UI.</li>
+      </ul>
+
+      <SectionedLine>
+        <div slot="left">
+          <b>Chaos Children</b>
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        <a href="https://github.com/Vylantze/Chaos-Children">https://github.com/Vylantze/Chaos-Children</a>
+      </div>
+      <ul>
+        <li>A 2D side-scrolling game that involves fighting enemies and overcoming obstacles.</li>
+        <li>Made using a team of two.</li>
+        <li>Developed using Unity Engine.</li>
+        <li>Developer for user input, character movement and enemy handling.</li>
+      </ul>
+
     </Section>
   </div>
 </template>
