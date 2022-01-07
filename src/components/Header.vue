@@ -4,26 +4,32 @@
     <Subsection class="center-div">
       <div class="header-details">
         <div class="header-detail-row">
-          <FontAwesomeIcon
-            class="header-detail-icon"
-            :icon="['fas', 'phone']"
-          />
+          <div class="icon-holder">
+            <FontAwesomeIcon
+              class="header-detail-icon"
+              :icon="['fas', 'phone']"
+            />
+          </div>
           <span style="margin-left: 5px">+65 93261198</span>
         </div>
         <div class="header-detail-row">
-          <FontAwesomeIcon
-            class="header-detail-icon"
-            :icon="['fab', 'github']"
-          />
+          <div class="icon-holder">
+            <FontAwesomeIcon
+              class="header-detail-icon"
+              :icon="['fab', 'github']"
+            />
+          </div>
           <span style="margin-left: 5px">
             <a href="https://github.com/Vylantze">https://github.com/Vylantze</a>
           </span>
         </div>
         <div class="header-detail-row">
-          <FontAwesomeIcon
-            class="header-detail-icon"
-            :icon="['fab', 'linkedin']"
-          /> 
+          <div class="icon-holder">
+            <FontAwesomeIcon
+              class="header-detail-icon"
+              :icon="['fab', 'linkedin']"
+            /> 
+          </div>
           <span style="margin-left: 5px">
             <a href="https://www.linkedin.com/in/darryl-lai">https://www.linkedin.com/in/darryl-lai</a>
           </span>
@@ -51,7 +57,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
+.top-header {
+  text-align: center;
+}
+
+.top-header > h1 {
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -60,7 +70,14 @@ h1 {
   text-align: left;
 }
 
-.top-header {
-  text-align: center;
+.header-details > .header-detail-row {
+  display: flex;
+}
+
+.header-details > .header-detail-row > .icon-holder {
+  width: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 </style>
