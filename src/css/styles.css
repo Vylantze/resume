@@ -1,0 +1,18 @@
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-caps: small-caps;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.note {
+  font-size: 0.9em;
+}
