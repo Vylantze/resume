@@ -28,27 +28,17 @@ jobs:
         with:
           node-version: '12.x'
 
-      - run: npm install
-      - run: npm run build
+      - name: Install project
+        run: npm install
+      - name: Build project
+        run: npm run build
 
-      - name: Check current directory
+      - name: Deploy project
         working-directory: ./dist
-        run: pwd
-      - name: Git init
-        working-directory: ./dist
-        run: git init
-      - name: Set user.name
-        working-directory: ./dist
-        run: git config user.name "Vylantze"
-      - name: Set user.email
-        working-directory: ./dist
-        run: git config user.email "vylantze@users.noreply.github.com"
-      - name: Add all items in directory to git
-        working-directory: ./dist
-        run: git add -A
-      - name: Prepare deploy message
-        working-directory: ./dist
-        run: git commit -m 'deploy'
-      - name: Push to gh-pages
-        working-directory: ./dist
-        run: git push -f https://vylantze:${{ secrets.GITHUB_TOKEN }}@github.com/Vylantze/resume.git master:gh-pages
+        run: |
+          git init
+          git config user.name "Vylantze"
+          git config user.email "vylantze@users.noreply.github.com"
+          git add -A
+          git commit -m 'deploy'
+          git push -f https://vylantze:${{ secrets.GITHUB_TOKEN }}@github.com/Vylantze/resume.git master:gh-pages
