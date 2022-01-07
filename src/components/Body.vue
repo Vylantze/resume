@@ -170,6 +170,20 @@
         <li>Developer for user input, character movement and enemy handling.</li>
       </ul>
 
+      <SectionedLine>
+        <div slot="left">
+          <b>Resume</b>
+        </div>
+      </SectionedLine>
+      <div class="italics note">
+        <a href="https://github.com/Vylantze/resume">https://github.com/Vylantze/resume</a>
+      </div>
+      <ul>
+        <li>An online version of this resume.</li>
+        <li>Developed using Vuejs and GitHub pages.</li>
+        <li>Automated building through CI has been implemented.</li>
+      </ul>
+
     </Section>
   </div>
 </template>
