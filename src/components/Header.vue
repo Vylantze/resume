@@ -1,7 +1,7 @@
 <template>
   <div class="top-header">
     <h1 class="title">{{ name }}</h1>
-    <div class="center-div">
+    <Subsection class="center-div">
       <div class="header-details">
         <div class="header-detail-row">
           <FontAwesomeIcon
@@ -29,29 +29,31 @@
           </span>
         </div>
       </div>
-    </div>
+    </Subsection>
   </div>
 </template>
 
 <script>
+import Subsection from './Subsection.vue'
+
 export default {
   name: 'Header',
+  components: {
+    Subsection,
+  },
   data() {
     return {
       name: "Darryl Lai",
-      
     }
-  },
-  computed: {
-    
-  },
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  margin: 40px 0 0;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .header-details {
