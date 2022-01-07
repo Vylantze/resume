@@ -75,7 +75,7 @@ export default {
 }
 
 .header-details > .header-detail-row > .icon-holder {
-  width: 20px;
+  width: 15px;
   display: flex;
   justify-content: left;
   align-items: center;
