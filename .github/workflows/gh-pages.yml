@@ -1,0 +1,54 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - run: npm install
+      - run: npm run build
+
+      - name: Check current directory
+        working-directory: ./dist
+        run: pwd
+      - name: Git init
+        working-directory: ./dist
+        run: git init
+      - name: Set user.name
+        working-directory: ./dist
+        run: git config user.name "Vylantze"
+      - name: Set user.email
+        working-directory: ./dist
+        run: git config user.email "vylantze@users.noreply.github.com"
+      - name: Add all items in directory to git
+        working-directory: ./dist
+        run: git add -A
+      - name: Prepare deploy message
+        working-directory: ./dist
+        run: git commit -m 'deploy'
+      - name: Push to gh-pages
+        working-directory: ./dist
+        run: git push -f https://vylantze:${{ secrets.GITHUB_TOKEN }}@github.com/Vylantze/resume.git master:gh-pages
