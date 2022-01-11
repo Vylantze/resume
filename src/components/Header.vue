@@ -10,7 +10,16 @@
               :icon="['fas', 'phone']"
             />
           </div>
-          <span style="margin-left: 5px">+65 93261198</span>
+          <span class="select-all" style="margin-left: 5px">+65 93261198</span>
+        </div>
+        <div class="header-detail-row">
+          <div class="icon-holder">
+            <FontAwesomeIcon
+              class="header-detail-icon"
+              :icon="['fas', 'envelope']"
+            />
+          </div>
+          <span class="select-all" style="margin-left: 5px">lzh.darryl@gmail.com</span>
         </div>
         <div class="header-detail-row">
           <div class="icon-holder">

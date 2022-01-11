@@ -16,3 +16,10 @@
 .note {
   font-size: 0.9em;
 }
+
+.select-all {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
