@@ -112,7 +112,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a href="https://github.com/Vylantze/KCS">https://github.com/Vylantze/KCS</a>
+          <a target="_blank" href="https://github.com/Vylantze/KCS">https://github.com/Vylantze/KCS</a>
         </div>
         <ul>
           <li>A rebuild of the home room of the game Kantai Collection.</li>
@@ -129,7 +129,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a href="https://github.com/CS2103-Aug2015-w15-4j/main">https://github.com/CS2103-Aug2015-w15-4j/main</a>
+          <a target="_blank" href="https://github.com/CS2103-Aug2015-w15-4j/main">https://github.com/CS2103-Aug2015-w15-4j/main</a>
         </div>
         <ul>
           <li>An application that allows for user to input and manage tasks.</li>
@@ -146,7 +146,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a href="https://github.com/Voxsam/8thsea">https://github.com/Voxsam/8thsea</a>
+          <a target="_blank" href="https://github.com/Voxsam/8thsea">https://github.com/Voxsam/8thsea</a>
         </div>
         <ul>
           <li>A game that uses an underwater submarine to catch fish.</li>
@@ -163,7 +163,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a href="https://github.com/JeanKoh/Voxsam">https://github.com/JeanKoh/Voxsam</a>
+          <a target="_blank" href="https://github.com/JeanKoh/Voxsam">https://github.com/JeanKoh/Voxsam</a>
         </div>
         <ul>
           <li>A game that lets you build towers to defend against viral blobs.</li>
@@ -180,7 +180,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a href="https://github.com/Vylantze/Chaos-Children">https://github.com/Vylantze/Chaos-Children</a>
+          <a target="_blank" href="https://github.com/Vylantze/Chaos-Children">https://github.com/Vylantze/Chaos-Children</a>
         </div>
         <ul>
           <li>A 2D side-scrolling game that involves fighting enemies and overcoming obstacles.</li>
@@ -197,7 +197,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a href="https://github.com/Vylantze/resume">https://github.com/Vylantze/resume</a>
+          <a target="_blank" href="https://github.com/Vylantze/resume">https://github.com/Vylantze/resume</a>
         </div>
         <ul>
           <li>An online version of this resume.</li>

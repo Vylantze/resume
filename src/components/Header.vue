@@ -29,7 +29,7 @@
             />
           </div>
           <span style="margin-left: 5px">
-            <a href="https://github.com/Vylantze">https://github.com/Vylantze</a>
+            <a target="_blank" href="https://github.com/Vylantze">https://github.com/Vylantze</a>
           </span>
         </div>
         <div class="header-detail-row">
@@ -40,7 +40,7 @@
             /> 
           </div>
           <span style="margin-left: 5px">
-            <a href="https://www.linkedin.com/in/darryl-lai">https://www.linkedin.com/in/darryl-lai</a>
+            <a target="_blank" href="https://www.linkedin.com/in/darryl-lai">https://www.linkedin.com/in/darryl-lai</a>
           </span>
         </div>
       </div>
