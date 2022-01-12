@@ -18,7 +18,7 @@
       </Subsection>
 
       <Subsection>
-        <SectionedLine style="margin-top: 10px">
+        <SectionedLine>
           <div slot="left">
             <b>Saint Andrew's Junior College</b>
           </div>

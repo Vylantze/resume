@@ -13,5 +13,6 @@ export default {
 <style scoped>
 .subsection {
   page-break-inside: avoid;
+  margin: 5px 0px;
 }
 </style>
