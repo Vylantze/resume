@@ -125,6 +125,23 @@
       <Subsection>
         <SectionedLine>
           <div slot="left">
+            <b>Command Line Canvas</b>
+          </div>
+        </SectionedLine>
+        <div class="italics note">
+          <a target="_blank" href="https://github.com/Vylantze/java-canvas">https://github.com/Vylantze/java-canvas</a>
+        </div>
+        <ul>
+          <li>An application that takes in user input to create a canvas in the command line interface and draw on it.</li>
+          <li>Solo project.</li>
+          <li>Developed using Java and Docker was used for deployment.</li>
+          <li>Developed with test driven development practices and implemented continuous integration for testing.</li>
+        </ul>
+      </Subsection>
+
+      <Subsection>
+        <SectionedLine>
+          <div slot="left">
             <b>OraCle</b>
           </div>
         </SectionedLine>
