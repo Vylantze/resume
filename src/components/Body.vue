@@ -53,7 +53,7 @@
             </tr>
             <tr>
               <td><b>Developer Tools</b></td>
-              <td>Git, Heroku, Render, AWS, MySQL, MongoDB</td>
+              <td>Git, Docker, Heroku, Render, AWS, MySQL, MongoDB</td>
             </tr>
           </tbody>
         </table>
