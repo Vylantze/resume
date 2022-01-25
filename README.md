@@ -1,3 +1,6 @@
+[![CI](https://github.com/Vylantze/resume/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Vylantze/resume/actions/workflows/gh-pages.yml)
+[![pages-build-deployment](https://github.com/Vylantze/resume/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Vylantze/resume/actions/workflows/pages/pages-build-deployment)
+
 # resume
 
 ## Project setup
