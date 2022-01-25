@@ -3,6 +3,10 @@
 
 # resume
 
+Darryl's resume, built using Vuejs with automated CI for building the webpage.
+
+A sample can be seen at [vylantze.github.io/resume/](vylantze.github.io/resume/)
+
 ## Project setup
 ```
 npm install
