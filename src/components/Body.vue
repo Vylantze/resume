@@ -125,7 +125,7 @@
       <Subsection>
         <SectionedLine>
           <div slot="left">
-            <b>Command Line Canvas</b>
+            <b>Java CLI Canvas</b>
           </div>
         </SectionedLine>
         <div class="italics note">
