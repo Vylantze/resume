@@ -132,10 +132,10 @@
           <a target="_blank" href="https://github.com/Vylantze/java-canvas">https://github.com/Vylantze/java-canvas</a>
         </div>
         <ul>
-          <li>An application that takes in user input to create a canvas in the command line interface and draw on it.</li>
+          <li>An application that takes in user input to create a canvas and draw in the command line interface.</li>
           <li>Solo project.</li>
           <li>Developed using Java and Docker was used for deployment.</li>
-          <li>Developed with test driven development practices and implemented continuous integration for testing.</li>
+          <li>Implemented with test driven development practices and continuous integration for testing.</li>
         </ul>
       </Subsection>
 
