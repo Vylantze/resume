@@ -222,7 +222,10 @@
           <li>Automated building through CI has been implemented.</li>
         </ul>
       </Subsection>
+    </Section>
 
+    <Section v-if="Boolean(lastDate)" class="date">
+        <i>Last updated {{ formattedDate }}</i> 
     </Section>
   </div>
 </template>
@@ -232,12 +235,56 @@ import Section from './Section.vue'
 import SectionedLine from './SectionedLine.vue'
 import Subsection from './Subsection.vue'
 
+const monthArray = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
 export default {
   name: 'Body',
   components: {
     Section,
     SectionedLine,
     Subsection,
+  },
+  data() {
+    return {
+      lastDate: new Date(),
+    }
+  },
+  computed: {
+    formattedDate() {
+      if (!this.lastDate) { return null; }
+      let date = this.lastDate;
+      if (typeof date == 'string') {
+        date = new Date(date)
+      }
+      var month = monthArray[date.getMonth()]
+      var day = date.getDate()
+      var hour = (date.getHours() < 10 ? '0' : '') + date.getHours()
+      var min = (date.getMinutes() < 10 ? '0' : '') + date.getMinutes()
+      var year = date.getFullYear().toString() //.substring(2, 4)
+      return `${day} ${month} ${year}, ${hour}:${min}`
+    }
+  },
+  created() {
+    this.get_latest_commits();
+  },
+  methods: {
+    get_latest_commits: function() {
+      var xhttp = new XMLHttpRequest();
+      var component = this;
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          let commits = JSON.parse(this.responseText);
+          if (!commits) {
+            return;
+          }
+          console.log("Commits", commits);
+          component.lastDate = new Date(commits[0].commit.committer.date);
+          console.log("Set last date", { date: component.lastDate })
+        }
+      };
+      xhttp.open("GET", "https://api.github.com/repos/Vylantze/resume/commits", true);
+      xhttp.send();
+    }
   }
 }
 </script>
@@ -246,6 +293,10 @@ export default {
 <style scoped>
 .body {
   margin: 40px 0 0;
+}
+
+.body > .date {
+  font-size: 0.7em;
 }
 
 ul {
