@@ -129,7 +129,7 @@
           </div>
         </SectionedLine>
         <div class="italics note">
-          <a target="_blank" href="https://github.com/Vylantze/java-canvas">https://github.com/Vylantze/java-canvas</a>
+          <a target="_blank" href="https://github.com/Vylantze/java-cli-canvas">https://github.com/Vylantze/java-cli-canvas</a>
         </div>
         <ul>
           <li>An application that takes in user input to create a canvas and draw in the command line interface.</li>
