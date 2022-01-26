@@ -122,6 +122,7 @@
         </ul>
       </Subsection>
 
+      <!--
       <Subsection>
         <SectionedLine>
           <div slot="left">
@@ -138,6 +139,7 @@
           <li>Implemented with test driven development practices and continuous integration for testing.</li>
         </ul>
       </Subsection>
+      -->
 
       <Subsection>
         <SectionedLine>
