@@ -212,6 +212,22 @@
       <Subsection>
         <SectionedLine>
           <div slot="left">
+            <b>User balance API endpoint</b>
+          </div>
+        </SectionedLine>
+        <div class="italics note">
+          <a target="_blank" href="https://github.com/Vylantze/user-crypto-balance">https://github.com/Vylantze/user-crypto-balance</a>
+        </div>
+        <ul>
+          <li>A programming challenge that involves the creation of an api endpoint that uses real cryptocurrency values to calculate a theoretical user's balance in USD.</li>
+          <li>Developed using Node, Expresss, Mocha and Chai.</li>
+          <li>Automated building through CI has been implemented.</li>
+        </ul>
+      </Subsection>
+
+      <Subsection>
+        <SectionedLine>
+          <div slot="left">
             <b>Resume</b>
           </div>
         </SectionedLine>
