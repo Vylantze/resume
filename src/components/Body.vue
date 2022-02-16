@@ -296,8 +296,12 @@ export default {
             return;
           }
           console.log("Commits", commits);
-          component.lastDate = new Date(commits[0].commit.committer.date);
-          console.log("Set last date", { date: component.lastDate })
+          try {
+            component.lastDate = new Date(commits[0].commit.committer.date);
+            console.log("Set last date", { date: component.lastDate });
+          } catch (e) {
+            console.log("Error", e);
+          }
         }
       };
       xhttp.open("GET", "https://api.github.com/repos/Vylantze/resume/commits", true);
