@@ -221,7 +221,7 @@
         <ul>
           <li>A programming challenge that involves the creation of an api endpoint that uses real cryptocurrency values to calculate a theoretical user's balance in USD.</li>
           <li>Developed using Node, Expresss, Mocha and Chai.</li>
-          <li>Automated building through CI has been implemented.</li>
+          <li>Automated building and testing through CI has been implemented.</li>
         </ul>
       </Subsection>
 
