@@ -53,7 +53,7 @@
             </tr>
             <tr>
               <td><b>Developer Tools</b></td>
-              <td>Git, Docker, Heroku, Render, AWS, MySQL, MongoDB</td>
+              <td>Git, Docker, AWS, MySQL, MongoDB</td>
             </tr>
           </tbody>
         </table>
@@ -66,10 +66,29 @@
       <Subsection>
         <SectionedLine>
           <div slot="left">
+            <b>Credit Suisse AG</b>
+          </div>
+          <div slot="right">
+            04/2022 – Present
+          </div>
+        </SectionedLine>
+        <div class="italics note">
+          Software Developer & Engine Staff
+        </div>
+        <ul>
+          <li>Updated and maintained automated booking system for transactions.</li>
+          <li>Updated and maintained UI.</li>
+          <li>Developing and creating a new UI framework for new system.</li>
+        </ul>
+      </Subsection>
+
+      <Subsection>
+        <SectionedLine>
+          <div slot="left">
             <b>VRcollab Pte. Ltd.</b>
           </div>
           <div slot="right">
-            08/2018 – Present
+            08/2018 – 03/2022
           </div>
         </SectionedLine>
         <div class="italics note">
@@ -103,7 +122,7 @@
     </Section>
 
     <Section
-      title="Projects"
+      title="Personal Projects"
     >
       <Subsection>
         <SectionedLine>
@@ -242,9 +261,11 @@
       </Subsection>
     </Section>
 
+    <!--
     <Section v-if="Boolean(lastDate)" class="date">
-        <i>Last updated {{ formattedDate }}</i> 
+      <i>Last updated {{ formattedDate }}</i> 
     </Section>
+    -->
   </div>
 </template>
 
