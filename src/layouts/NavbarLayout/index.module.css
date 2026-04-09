@@ -21,3 +21,9 @@
   font-variant-caps: small-caps;
   text-align: center;
 }
+
+@media print {
+  .theme-button-container {
+    display: none !important;
+  }
+}

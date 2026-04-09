@@ -18,6 +18,30 @@ export function ThemeProvider ({ children }: PropsWithChildren) {
     setDocumentTheme(state.theme);
     storage.setItem('theme', state);
   }, [state]);
+  
+  useEffect(() => {
+    const handleBeforePrint = () => {
+      // Perform actions like updating state or modifying the DOM
+      if (state.theme === 'dark') {
+        setDocumentTheme('light');
+      }
+    };
+
+    window.addEventListener('beforeprint', handleBeforePrint);
+    return () => window.removeEventListener('beforeprint', handleBeforePrint);
+  }, [state.theme]);
+
+  useEffect(() => {
+    const handleAfterPrint = () => {
+      // Perform actions like updating state or modifying the DOM
+      if (state.theme === 'dark') {
+        setDocumentTheme('dark');
+      }
+    };
+
+    window.addEventListener('afterprint', handleAfterPrint);
+    return () => window.removeEventListener('afterprint', handleAfterPrint);
+  }, [state.theme]);
 
   return (
     <ThemeContext.Provider value={state.theme}>
