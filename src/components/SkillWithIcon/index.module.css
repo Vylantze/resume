@@ -9,6 +9,10 @@
   width: 2.5rem;
 }
 
+.skill-name {
+  line-height: 1em;
+}
+
 .skill-proficiency {
   margin-top: -5px;
   font-size: 0.7em;

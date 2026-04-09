@@ -9,7 +9,7 @@ export function Content () {
       <div className={styles['content']}>
 
         <Section title="Technical Skills">
-          <div className={styles['section-content']}>
+          <div className={styles['skills-content']}>
             <div className={styles['skills-left']}>
               Programming Languages
             </div>
@@ -22,7 +22,7 @@ export function Content () {
             </div>
           </div>
           
-          <div className={styles['section-content']}>
+          <div className={styles['skills-content']}>
             <div className={styles['skills-left']}>
               Frameworks
             </div>
@@ -35,7 +35,7 @@ export function Content () {
             </div>
           </div>
 
-          <div className={styles['section-content']}>
+          <div className={styles['skills-content']}>
             <div className={styles['skills-left']}>
               Developer Tools
             </div>

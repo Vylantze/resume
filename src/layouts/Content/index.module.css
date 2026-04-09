@@ -28,18 +28,24 @@
   text-align: left;
 }
 
-.section-content > .skills-left {
+.skills-content {
+  display: flex;
+  margin-top: 5px;
+  gap: 15px;
+}
+
+.skills-content > .skills-left {
   min-width: 215px;
   display: flex;
   align-items: center;
 }
 
-.section-content > .skills-right {
+.skills-content > .skills-right {
   flex: 1;
   display: grid;
   grid-template-rows: 50px;
   grid-auto-rows: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 10px;
 }
 
@@ -57,4 +63,18 @@
 .skills-content {
   display: flex;
   gap: 15px;
+}
+
+@media print, screen and (max-width: 1100px) {
+  .skills-content {
+    display: inline;
+  }
+
+  .skills-content > .skills-right {
+    font-size: 0.9em;
+  }
+
+  .note {
+    font-size: 0.9em;
+  }
 }
