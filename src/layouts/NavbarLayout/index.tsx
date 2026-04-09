@@ -16,7 +16,7 @@ export function NavbarLayout () {
   };
 
   return (
-    <div className={`${styles['navbar']} sticky space-y-1`}>
+    <div className={`${styles['navbar']} sticky `}>
       <div className={styles['nav-header']}>
         <div className={styles['theme-button-container']}>
           <Toggle
