@@ -1,5 +1,6 @@
 .section {
   margin: 40 40 0 0;
+  break-after: region;
 }
 
 .section-title {

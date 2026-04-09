@@ -141,4 +141,8 @@ code, pre {
   .sticky {
     position: unset;
   }
+
+  div {
+    break-inside: auto;
+  }
 }
