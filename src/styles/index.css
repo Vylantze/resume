@@ -59,6 +59,12 @@ body.dark {
   }
 }
 
+@media print, screen and (max-width: 1100px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
+
 /*
 Custom global styles for generic usage
 */

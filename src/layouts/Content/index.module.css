@@ -69,12 +69,4 @@
   .skills-content {
     display: inline;
   }
-
-  .skills-content > .skills-right {
-    font-size: 0.9em;
-  }
-
-  .note {
-    font-size: 0.9em;
-  }
 }
