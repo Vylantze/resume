@@ -1,10 +1,23 @@
+.navbar {
+  width: 100%;
+}
+
 .nav-header {
   display: flex;
   align-items: center;
-  margin: 0 0.5em;
+  justify-content: center;
+
+  position: relative;
+}
+
+.theme-button-container {
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
 
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-variant-caps: small-caps;
+  text-align: center;
 }

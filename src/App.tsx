@@ -1,6 +1,6 @@
 import styles from '@/styles/App.module.css';
 
-import ErrorBoundary from '@/components/ui/ErrorBoundary';
+import ErrorBoundary from '@/components/ErrorBoundary';
 import NavbarLayout from '@/layouts/NavbarLayout';
 import BaseLayout from '@/layouts/BaseLayout';
 import ThemeProvider from '@/providers/ThemeProvider';

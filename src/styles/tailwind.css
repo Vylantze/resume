@@ -7,10 +7,10 @@
 
 @layer base {
   h1 {
-    font-size: var(--text-2xl);
+    @apply text-4xl tracking-tight;
   }
   h2 {
-    font-size: var(--text-xl);
+    @apply text-2xl tracking-tight;
   }
   * {
     @apply border-border outline-ring/50;
