@@ -127,6 +127,7 @@ code, pre {
   position: sticky;
   top: 0;
   z-index: 100;
+  background-color: var(--background);
 }
 
 /* Select all on click */
