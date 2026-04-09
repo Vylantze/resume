@@ -2,7 +2,7 @@ import styles from './index.module.css';
 
 import { Toggle } from '@/components/ui/toggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faMoon, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faMoon, faPhone, faSun } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { useTheme, useThemeDispatch } from '@/providers/ThemeProvider/hooks';
@@ -17,18 +17,20 @@ export function NavbarLayout () {
 
   return (
     <div className={`${styles['navbar']} sticky space-y-1`}>
-      <h1 className={styles['title']}>Darryl Lai</h1>
       <div className={styles['nav-header']}>
         <div className={styles['theme-button-container']}>
           <Toggle
             onClick={onDarkModeToggle}
             pressed={theme === 'dark'}
           >
-            <FontAwesomeIcon icon={faMoon} />
-            Dark
+            <FontAwesomeIcon icon={theme === 'dark' ? faSun : faMoon} />
+            <span>{theme === 'dark' ? 'Light' : 'Dark'}</span>
           </Toggle>
         </div>
-        <div className={styles['center-container']}>
+        <h1 className={styles['title']}>Darryl Lai</h1>
+      </div>
+      <div className={styles['nav-header']}>
+        <div className={styles['header-details-container']}>
           {/* Mobile */}
           <div className="flex items-center gap-1">
             <FontAwesomeIcon icon={faPhone} />
