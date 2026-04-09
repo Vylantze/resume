@@ -65,6 +65,11 @@
   gap: 15px;
 }
 
+.section-content-description {
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
 @media print, screen and (max-width: 1100px) {
   .skills-content {
     display: inline;
