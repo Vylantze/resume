@@ -1,0 +1,18 @@
+.section {
+  margin: 40 40 0 0;
+}
+
+.section-title {
+  font-size: 1.3em;
+  font-family: var(--heading);
+  font-variant-caps: small-caps;
+}
+
+.section-divider {
+  margin-top: 5px;
+}
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

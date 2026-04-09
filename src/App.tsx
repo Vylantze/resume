@@ -1,9 +1,11 @@
 import styles from '@/styles/App.module.css';
 
 import ErrorBoundary from '@/components/ErrorBoundary';
+import ThemeProvider from '@/providers/ThemeProvider';
+
 import NavbarLayout from '@/layouts/NavbarLayout';
 import BaseLayout from '@/layouts/BaseLayout';
-import ThemeProvider from '@/providers/ThemeProvider';
+import Content from '@/layouts/Content';
 
 export function App () {
   return (
@@ -12,9 +14,7 @@ export function App () {
         <ThemeProvider>
           <NavbarLayout />
           <BaseLayout>
-            <div className={styles['content']}>
-              Text
-            </div>
+            <Content />
           </BaseLayout>
         </ThemeProvider>
       </ErrorBoundary>

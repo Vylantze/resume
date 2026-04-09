@@ -1,0 +1,16 @@
+.skill-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-container > svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.skill-proficiency {
+  margin-top: -5px;
+  font-size: 0.7em;
+  font-style: italic;
+}
