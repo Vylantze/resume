@@ -65,6 +65,13 @@ body.dark {
   }
 }
 
+@media print {
+  body, * {
+    page-break-after: auto;
+    break-after: auto;
+  }
+}
+
 /*
 Custom global styles for generic usage
 */
