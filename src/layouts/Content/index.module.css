@@ -1,7 +1,7 @@
 .content-container {
   display: flex;
   justify-content: center;
-  margin: 40px 20px;
+  margin: 0 20px 30% 20px;
 }
 
 .content {
@@ -11,6 +11,12 @@
 
 .content > * {
   margin-bottom: 20px;
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-content {

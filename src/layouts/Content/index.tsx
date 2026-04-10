@@ -1,12 +1,44 @@
 import { Section } from '@/components/Section';
 import styles from './index.module.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import { SkillWithIcon } from '@/components/SkillWithIcon';
 
 export function Content () {
   return (
     <div className={styles['content-container']}>
       <div className={styles['content']}>
+        <div className={styles['contact-header']}>
+          <div className={styles['header-details-container']}>
+            {/* Mobile */}
+            <div className="flex items-center gap-1">
+              <FontAwesomeIcon icon={faPhone} />
+              <span className="select-all-on-click">+65 9326 1198</span>
+            </div>
+            {/* Email */}
+            <div className="flex items-center gap-1">
+              <FontAwesomeIcon icon={faEnvelope} />
+              <span className="select-all-on-click">lzh.darryl@gmail.com</span>
+            </div>
+            {/* Github */}
+            <div className="flex items-center gap-1">
+              <FontAwesomeIcon icon={faGithub} />
+              <span>
+                <a target="_blank" href="https://github.com/Vylantze">https://github.com/Vylantze</a>
+              </span>
+            </div>
+            {/* LinkedIn */}
+            <div className="flex items-center gap-1">
+              <FontAwesomeIcon icon={faLinkedin} />
+              <span>
+                <a target="_blank" href="https://www.linkedin.com/in/darryl-lai">https://www.linkedin.com/in/darryl-lai</a>
+              </span>
+            </div>
+          </div>
+        </div>
 
         <Section title="Technical Skills">
           <div className={styles['skills-content']}>
@@ -101,7 +133,7 @@ export function Content () {
             <div className={styles['section-content-description']}>
               <ul className="list-disc pl-4">
                 <li>Co-created a full electron app for project management including token-based authentication and conversions to a proprietary file format, providing increased security for users and from competitors.</li>
-                <li>Exposed to and took up many technologies, encouraging experimentation and cultivating good problem solving habits like breaking down large tasks into smaller sub tasks.</li>
+                <li>Developed and maintained plugins to retrieve and compile project data from external model viewing applications, enabling the users to easily convert any model to the proprietary format for viewing without needing to go through the development team.</li>
               </ul>
             </div>
           </div>
