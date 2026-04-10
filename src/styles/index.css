@@ -146,4 +146,8 @@ code, pre {
   div {
     break-inside: auto;
   }
+
+  a {
+    user-select: text;
+  }
 }

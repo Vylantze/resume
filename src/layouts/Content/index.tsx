@@ -209,7 +209,7 @@ export function Content () {
 
           <div className={styles['sub-header']}>
             <LinkComponent href="https://stats.foundry-arc.uk/">
-              Foundry Stats
+              FoundryVTT Stats
             </LinkComponent>
           </div>
           <div className={styles['note']}>
