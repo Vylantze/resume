@@ -101,8 +101,8 @@ export function Content () {
               <ul className="list-disc pl-4">
                 <li>Streamlining an automated transaction system that fully processes transactions without human input, allowing man-hours to only be spent on new cases or errors.</li>
                 <li>Implemented an internal full stack system for access to information about transaction flows, allowing users to view the state of any transaction at any time without the need for developers aid.</li>
-                <li>Introduced and implemented a timeline for the transactions similar to parcel tracking, enabling external parties or new users to easily understand the process transactions go through in the system.</li>
-                <li>Standardized reusable templates for the UI and its backend that allows for easy integration of new transaction flows, reducing the time taken to 1 day.</li>
+                <li>Introduced and implemented a timeline for the transactions similar to parcel tracking, enabling external parties or new users to easily understand the processes of the system.</li>
+                <li>Standardized reusable templates for the React UI and its Spring Boot backend that allows for easy integration of new transaction flows, reducing the time taken to 1 day.</li>
               </ul>
             </div>
           </div>
@@ -119,8 +119,9 @@ export function Content () {
             </div>
             <div className={styles['section-content-description']}>
               <ul className="list-disc pl-4">
-                <li>Led backend optimizations to legacy UI, significantly increasing the initial loading speeds of the pages while minimizing user flow disruption.</li>
+                <li>Led backend optimizations to legacy Vuejs UI, significantly increasing the initial loading speeds of the pages while minimizing user flow disruption.</li>
                 <li>Improved legacy UI's implementation with no visible difference to users, allowing for easier maintainability and maximizing efficiency when fixing bugs.</li>
+                <li>Developed and implemented a new UI using React to replace the old UI and use a more modern design, providing users a smoother user experience when navigating the system.</li>
               </ul>
             </div>
           </div>
@@ -141,7 +142,7 @@ export function Content () {
             </div>
             <div className={styles['section-content-description']}>
               <ul className="list-disc pl-4">
-                <li>Co-created a full electron app for project management including token-based authentication and conversions to a proprietary file format, providing increased security for users and from competitors.</li>
+                <li>Co-created a full electron app for project management including token-based authentication and a proprietary file format, providing increased security for users and from competitors.</li>
                 <li>Developed and implemented plugins to retrieve and compile project data from external model viewing applications, enabling the users to easily convert any model to the proprietary format for viewing without needing to go through the development team.</li>
               </ul>
             </div>
