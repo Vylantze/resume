@@ -1,0 +1,15 @@
+.print-only-footer {
+  display: none;
+}
+
+@media print {
+  .print-only-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+}
