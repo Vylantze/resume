@@ -80,4 +80,8 @@
   .skills-content {
     display: inline;
   }
+
+  .content-container {
+    margin-bottom: 0px;
+  }
 }

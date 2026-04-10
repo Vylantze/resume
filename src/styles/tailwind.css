@@ -21,6 +21,9 @@
   html {
     @apply font-sans;
   }
+  a {
+    @apply hover:underline;
+  }
 }
 
 @theme inline {

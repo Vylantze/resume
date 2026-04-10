@@ -1,6 +1,6 @@
 
 export const Skills = {
-  HTML5: 'HTML/CSS',
+  HTML5: 'HTML / CSS',
   CPlusPlus: 'C++',
   CSharp: 'C#',
   Golang: 'Golang',
@@ -12,6 +12,7 @@ export const Skills = {
   React: 'React',
   Vite: 'Vite',
   Vuejs: 'Vue.js',
+  Jira: 'Jira',
 
   Git: 'Git',
   Docker: 'Docker',
