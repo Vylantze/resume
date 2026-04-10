@@ -1,9 +1,6 @@
-[![CI](https://github.com/Vylantze/resume/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Vylantze/resume/actions/workflows/gh-pages.yml)
-[![pages-build-deployment](https://github.com/Vylantze/resume/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Vylantze/resume/actions/workflows/pages/pages-build-deployment)
+# Resume
 
-# resume
-
-Darryl's resume, built using React  with automated CI for building the webpage.
+Darryl's resume. Built using React, Typescript and Vite with automated CI for building the webpage.
 
 A sample can be seen at [vylantze.github.io/resume/](vylantze.github.io/resume/)
 
