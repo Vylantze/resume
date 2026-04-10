@@ -22,7 +22,7 @@ export function Content () {
             {/* Email */}
             <div className="flex items-center gap-1">
               <FontAwesomeIcon icon={faEnvelope} />
-              <span className="select-all-on-click">lzh.darryl@gmail.com</span>
+              <a target="_blank" href="mailto:lzh.darryl@gmail.com">lzh.darryl@gmail.com</a>
             </div>
             {/* Github */}
             <div className="flex items-center gap-1">
