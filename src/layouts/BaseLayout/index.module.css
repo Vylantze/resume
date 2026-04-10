@@ -1,15 +1,18 @@
 .print-only-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7rem;
+
+  pointer-events: none;
+  user-select: none;
+
   display: none;
 }
 
 @media print {
   .print-only-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
-    display: flex;
+    display: flex !important;
     justify-content: center;
-    font-size: 0.7rem;
   }
 }
